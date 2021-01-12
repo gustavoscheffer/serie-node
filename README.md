@@ -15,4 +15,6 @@ required envs:
 - MAIL_USER = 
 - MAIL_PASS = 
 - MONGO_URI = 
-- SECRET = 
+- SECRET =
+
+This is a new conf. 
