@@ -50,7 +50,6 @@ router.post('/', async (req, res) => {
         return res.send({ project });
         
     } catch (error) {
-        console.log(error);
         return res.status(400).send({ error: 'Error creating new project' });        
     }
 
@@ -83,7 +82,6 @@ router.put('/:projectId', async (req, res) => {
         return res.send({ project });
 
     } catch (error) {
-        console.log(error);
         return res.status(400).send({ error: 'Error creating new project' });
     }
 });

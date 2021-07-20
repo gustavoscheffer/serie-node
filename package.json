@@ -4,7 +4,8 @@
   "description": "Recap nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,10 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.7",
-    "nodemailer": "^6.4.2",
+    "mongoose": "^5.13.3",
+    "nodemailer": "^6.6.3",
     "nodemailer-express-handlebars": "^3.1.0",
+    "npm": "^7.20.0",
     "path": "^0.12.7"
   }
 }
